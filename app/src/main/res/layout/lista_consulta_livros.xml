@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imagemLivro"
+        android:layout_width="80dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titulo"
+            android:id="@+id/tituloLivro">
+        </TextView>
+
+        <TextView
+            android:id="@+id/autorLivro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tituloLivro"
+            android:text="Autor"></TextView>
+
+        <TextView
+            android:id="@+id/editoraLivro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edicao"
+            android:text="Editora"></TextView>
+
+        <TextView
+            android:id="@+id/edicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/autorLivro"
+            android:text="Edição"></TextView>
+
+        <TextView
+            android:id="@+id/telefoneProprietario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editoraLivro"
+            android:text="Telefone" />
+
+        <TextView
+            android:id="@+id/emailProprietario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/telefoneProprietario"
+            android:text="E-mail" />
+    </RelativeLayout>
+
+</android.widget.LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "392366496346",
+    "firebase_url": "https://booksapp-a41ba.firebaseio.com",
+    "project_id": "booksapp-a41ba",
+    "storage_bucket": "booksapp-a41ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392366496346:android:150d0a2be6deb979",
+        "android_client_info": {
+          "package_name": "cmp1144.pucgoias.com.booksapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392366496346-so1b9kq0i1o764d5gqk4vv05b729h22m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaU-4jfTVg3HHEz7sTjxv14v3JKviOfUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

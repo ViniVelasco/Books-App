@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/textPesquisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textPesquisa"
+        android:layout_toEndOf="@+id/textPesquisa"
+        android:text="Consultar" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnConsulta"
+        android:layout_alignStart="@+id/textPesquisa"
+        android:text="Digite o nome do livro" />
+
+    <ListView
+        android:id="@+id/listaConsultaLivros"
+        android:layout_width="340dp"
+        android:layout_height="400dp"
+        android:layout_alignStart="@+id/textPesquisa"
+        android:layout_below="@+id/textPesquisa"
+        android:layout_marginTop="5dp"
+        android:background="#78b8ad" />
+</android.widget.RelativeLayout>

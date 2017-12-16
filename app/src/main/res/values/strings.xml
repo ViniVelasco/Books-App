@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BooksApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Preferências</string>
+    <string name="icon_book">&#xf02d;</string>
+    <string name="icon_login">&#xf2c1;</string>
+    <string name="icon_cadastro">&#xf007;</string>
+    <string name="icon_meus_livros">&#xf187;</string>
+    <string name="icon_preferencias">&#xf013;</string>
+    <string name="icon_search">&#xf002;</string>
+
+    <string name="texto_apresentacao">
+        Bem-vindo ao aplicativo BooksApp, um aplicativo de trocas de livros usados.
+        Você pode publicar seus livros que você não utiliza mais para que outras pessoas possam encontrá-lo na plataforma,
+        assim acionando uma negociação com você por e-mail ou telefone.
+        Também é possível buscar por livros usados em todo o país.
+    </string>
+
+    <string name="creditos">
+        Desenvolvido por: Vinicius Velasco
+        viniciusdesouzavelasco@gmail.com
+    </string>
+</resources>

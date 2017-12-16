@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/icons8user50"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_cadastro"
+            android:icon="@drawable/icons8einstein50"
+            android:title="Cadastre-se" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_buscar_livros"
+            android:icon="@drawable/icons8search50"
+            android:title="Buscar Livros"
+            />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_cadastro_livros"
+            android:icon="@drawable/icons8readfilled50"
+            android:title="Cadastrar Livros" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_meus_livros"
+            android:icon="@drawable/icons8bookshelffilled50"
+            android:title="Meus Livros" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/icons8servicesfilled50"
+            android:title="Perfil" />
+
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/icons8about50"
+            android:title="Sobre" />
+    </group>
+
+</menu>
